@@ -171,3 +171,19 @@ body {
 }
 .content-foto {
 }
+
+
+/* footer============= */
+.footer {
+	position: relative;
+	z-index: 2;
+	background: #0b1d26;
+}
+.footer-container {
+}
+._container {
+}
+.footer-copy__text {
+}
+.footer-text {
+}
