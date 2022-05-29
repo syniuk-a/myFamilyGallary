@@ -157,9 +157,14 @@ body {
 }
 .gallary__container {
 	display: grid;
-	grid-template-areas: "";
+	grid-template-areas:
+	"text"
+	"foto";
 }
 .gallary__text-content {
+	grid-area: text;
+	padding: 10px;
+	display: grid;
 }
 .content-text {
 }
@@ -172,6 +177,9 @@ body {
 .content-text__text {
 }
 .gallary__foto-content {
+	grid-area: foto;
+	padding: 10px;
+	display: grid;
 }
 .content-foto {
 }
