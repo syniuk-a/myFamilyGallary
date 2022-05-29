@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: Roboto;
+	font-size: 16px;
+	background-color: #04161f;	
+	color: cornsilk;
+}
+.wrapper {
+	min-height: 100%;
+}
+/* ====== */
+._container {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 50px 20px;
+}
+/* =================== */
+.parallax {
+	min-height: 100vh;
+}
+/* =================== */
+
+.parallax__body {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.parallax__container {
+	text-transform: uppercase;
+	position: relative;
+	z-index: 2;
+}
+
+.parallax__label {
+	display: flex;
+	align-items: center;
+	color: #10493b;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 6px;
+	margin: 0px 0px 25px 0px;
+}
+.parallax__label::before,
+.parallax__label::after {
+	content: "";
+	flex: 0 0 60px;
+	height: 2px;
+	margin: 0 10px;
+	background: #04161f;
+}
+.parallax__title {
+	font-size: 78px;
+	font-weight: 500;
+	line-height: 1.3;
+	letter-spacing: 8px;
+	color: goldenrod;
+}
+.parallax__list-background {
+	position: absolute;
+	z-index: 1;
+	width: 120%;
+	height: 120%;
+	top: -10%;
+	left: -10%;
+}
+.parallax-background {
+}
+.parallax-background__item {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.parallax-background__clouds,
+.parallax-background__mountains,
+.parallax-background__forest,
+.parallax-background__human {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.parallax-background__clouds {
+	background: url("/image/parallax/clouds.jpg") top / cover no-repeat;
+	top: 0;
+	left: 0;
+}
+.parallax-background__mountains {
+	background: url('/image/parallax/mountains.png') top / cover no-repeat;
+	left: 0;
+	top: 5%;
+	z-index: 2;
+}
+.parallax-background__forest {
+	background: url('/image/parallax/forest.png') top / cover no-repeat;
+	right: 0;
+	top: 0;
+	z-index: 3;
+}
+/* ! передивитись помилку з гномом */
+.parallax-background__human {
+	background: url('/image/parallax/human.png') top / cover no-repeat;
+	max-width: 450px;
+	max-height: 450px;
+	right: 20%;
+	bottom: 6%;
+	z-index: 4;
+}
+.gallary {
+	background-color: #0b1d26;
+	position: relative;
+	z-index: 2;
+}
+.gallary::before{
+	pointer-events: none;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	transform: translate(0px, -100%);
+	background: linear-gradient(180deg, rgba(11, 29, 38, 0) 5%, #0b1d26 100%);
+}
+.gallary__body {
+}
+.gallary__text-content {
+}
+.content-text {
+}
+.content-text__title {
+}
+.content-text__subtitle-text {
+}
+.content-text__text {
+}
+.gallary__foto-content {
+}
+.content-foto {
+}
