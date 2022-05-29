@@ -120,20 +120,19 @@ body {
 	left: 0;
 }
 .parallax-background__mountains {
-	background: url('../image/parallax/mountains.png') top / cover no-repeat;
+	background: url("../image/parallax/mountains.png") top / cover no-repeat;
 	left: 0;
 	top: 5%;
 	z-index: 2;
 }
 .parallax-background__forest {
-	background: url('../image/parallax/forest.png') top / cover no-repeat;
+	background: url("../image/parallax/forest.png") top / cover no-repeat;
 	right: 0;
 	top: 0;
 	z-index: 3;
 }
-/* ! передивитись помилку з гномом */
 .parallax-background__human {
-	background: url('../image/parallax/human.png') top / cover no-repeat;
+	background: url("../image/parallax/human.png") top / cover no-repeat;
 	max-width: 450px;
 	max-height: 450px;
 	right: 20%;
