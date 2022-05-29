@@ -155,7 +155,9 @@ body {
 	transform: translate(0px, -100%);
 	background: linear-gradient(180deg, rgba(11, 29, 38, 0) 5%, #0b1d26 100%);
 }
-.gallary__body {
+.gallary__container {
+	display: grid;
+	grid-template-areas: "";
 }
 .gallary__text-content {
 }
@@ -165,11 +167,17 @@ body {
 }
 .content-text__subtitle-text {
 }
+.gallary__title {
+}
 .content-text__text {
 }
 .gallary__foto-content {
 }
 .content-foto {
+}
+.content-foto__list {
+}
+.content-foto__item {
 }
 
 
