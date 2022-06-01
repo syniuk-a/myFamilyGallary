@@ -180,21 +180,39 @@ body {
 .content-text {
 }
 .content-text__title {
-  position: relative;
+  // position: relative;
+  text-align: end;
   font-size: 36px;
   margin: 0px 0px 10px 0px;
   line-height: 1.28;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: goldenrod;
+  @media (max-width: 991.98px) {
+    font-size: 28px;
+    margin: 0px 0px 8px 0px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  @media (max-width: 767.98px) {
+    font-size: 24px;
+    margin: 0px 0px 5px 0px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  @media (max-width: 479.98px) {
+  }
 }
-.content-text__title::before {
+.content-text__title::before,
+.content-text__title::after {
   // display: block;
   // flex: 0 0 80px;
   display: grid;
   content: "";
   height: 2px;
-  margin: 0px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
   background: goldenrod;
   // position: absolute;
   top: 0;
@@ -212,8 +230,9 @@ body {
 }
 .content-text__text {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.3;
   margin: 0px 0px 15px 0px;
+  letter-spacing: 2px;
 }
 
 /* ========================================= */
