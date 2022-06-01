@@ -180,13 +180,40 @@ body {
 .content-text {
 }
 .content-text__title {
+  position: relative;
   font-size: 36px;
+  margin: 0px 0px 10px 0px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: goldenrod;
 }
-.content-text__subtitle-text {
+.content-text__title::before {
+  // display: block;
+  // flex: 0 0 80px;
+  display: grid;
+  content: "";
+  height: 2px;
+  margin: 0px 0px 10px 0px;
+  background: goldenrod;
+  // position: absolute;
+  top: 0;
+  left: 0;
+  // transform: translate(-50%, -50%);
 }
 .gallary__title {
+  font-size: 24px;
+  margin: 0px 0px 10px 0px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 10px 0px 10px 0px;
+  color: goldenrod;
 }
 .content-text__text {
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0px 0px 15px 0px;
 }
 
 /* ========================================= */
